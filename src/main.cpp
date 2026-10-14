@@ -23,12 +23,12 @@ void setup() {
 
   //位置制御
 /*
-  motor.setControlMode(QDD_Motor::ControlMode::Position);
+  motor.setControlMode(motor.Position);
   //motor.setPositionRad(1.5708f); // 目標位置 約90°
   motor.setPositionDeg(-180);
   
   //電流制御
-  motor.setControlMode(QDD_Motor::ControlMode::Current);
+  motor.setControlMode(motor.Current);
   motor.setCurrentAmp(0.2f); // 指令電流 [A]
   */
 
